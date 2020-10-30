@@ -1,4 +1,4 @@
-apiVersion: power.io.github.com/v1
+apiVersion: power.io/v1
 kind: TcpIngress
 metadata:
   name: tcpingress-sample

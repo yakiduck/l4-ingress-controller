@@ -6,9 +6,9 @@ metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.2.5
   creationTimestamp: null
-  name: tcpingresses.power.io.github.com
+  name: tcpingresses.power.io
 spec:
-  group: power.io.github.com
+  group: power.io
   names:
     kind: TcpIngress
     listKind: TcpIngressList

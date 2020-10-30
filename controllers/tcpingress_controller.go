@@ -51,8 +51,8 @@ type TcpIngressReconciler struct {
 	Scheme *runtime.Scheme
 }
 
-// +kubebuilder:rbac:groups=power.io.github.com,resources=tcpingresses,verbs=get;list;watch;create;update;patch;delete
-// +kubebuilder:rbac:groups=power.io.github.com,resources=tcpingresses/status,verbs=get;update;patch
+// +kubebuilder:rbac:groups=power.io,resources=tcpingresses,verbs=get;list;watch;create;update;patch;delete
+// +kubebuilder:rbac:groups=power.io,resources=tcpingresses/status,verbs=get;update;patch
 
 func (r *TcpIngressReconciler) Reconcile(req ctrl.Request) (ctrl.Result, error) {
 	ctx := context.Background()
