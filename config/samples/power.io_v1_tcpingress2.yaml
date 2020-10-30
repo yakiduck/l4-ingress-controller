@@ -1,0 +1,9 @@
+apiVersion: power.io.github.com/v1
+kind: TcpIngress
+metadata:
+  name: tcpingress-test2
+spec:
+  serviceName: cdz
+  ports:
+    - servicePort: 8069
+      externalPort: 8069

@@ -1,0 +1,11 @@
+apiVersion: power.io.github.com/v1
+kind: TcpIngress
+metadata:
+  name: tcpingress-sample
+spec:
+  serviceName: abcd
+  ports:
+    - servicePort: 8048
+      externalPort: 8048
+    - servicePort: 8049
+      externalPort: 8049
